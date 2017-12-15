@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>h5简历</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/base.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+ <script src="js/main.js"></script>
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio; //动态控制1像素比例  
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');//动态控制1像素比例 
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;//动态获取不同手机型号宽度
+        html.style.fontSize=pageWidth/10+"px";//动态获取不同手机型号字体大小/10中被除数正常从10-16取值一般取16;
+    </script>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+   			 <div class="music-box">
+        		<div class="play" id="play"><i></i></div>
+        		<audio src="music/bg.mp3" loop id="music">
+        			<source src="" type="audio/mpeg">
+        			</audio>
+        	</div>
+        	<div class="hua" id="hua"><img src="img/icon_up.png" alt=""></div>
+        	<div class="swiper-wrapper">
+	         <div class="swiper-slide swr-one">
+	               <div class="one-top-box clear">
+	                    <div class="name">
+	                        <span class="sp1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="1.8s"></span>
+	                        <span class="sp2 ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.8s"></span>
+	                        <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-delay="2s">赵&nbsp;杰</p>
+	                    </div>
+	                    
+	               </div>
+	               <div class="jian" id="rotate">
+	                    <h2 class="ani" swiper-animate-effect="rotateIn" swiper-animate-delay="1.5s">简历</h2>
+	                    <div class="dp">
+		                    <p class="p1 ani" swiper-animate-effect="fadeInRight"></p>
+		                    <p class="p2 ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.3s"></p>
+		                    <p class="p3 ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1s"></p>
+		                    <p class="p4 ani" swiper-animate-effect="rotateIn" swiper-animate-delay="1s"><b></b></p>
+	                    </div>
+	                    <div class="pin ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="1.5s"><dd>web前端工程师</dd><span>应聘</span></div>
+	               </div>
+	              
+	               <div class="bg ani" swiper-animate-effect="fadeInDown"">
+						<div class="bg-p p-1">
+							<p class="bg-p1"></p>
+							<p class="bg-p2"></p>
+						</div>
+						<div class="bg-p p-2">
+							<p class="bg-p1"></p>
+							<p class="bg-p2"></p>
+						</div>
+						<div class="bg-p p-3">
+							<p class="bg-p1"></p>
+							<p class="bg-p2"></p>
+						</div>
+						<div class="bg-p p-4">
+							<p class="bg-p1"></p>
+							<p class="bg-p2"></p>
+						</div>
+	               </div>
+            </div>
+            <div class="swiper-slide swr-two">
+            	<div class="base ani">
+                    <b class="b-lf ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.1s"></b><h3 class='ani' swiper-animate-effect="rubberBand" swiper-animate-delay="0.1s">基本信息</h3><b class="b-rt ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.1s"></b>
+                </div>
+            	<dl class="msg">
+            		<dt class="lf ani" swiper-animate-effect="rotateIn" swiper-animate-delay="1s"><img src="img/tx.png" alt=""></dt>
+            		<dd class="lf ani" swiper-animate-effect="rollIn" swiper-animate-delay="1s">
+						<p>姓名&nbsp;:&nbsp;赵杰</p>
+						<p>年龄&nbsp;:&nbsp;24</p>
+						<p>户籍&nbsp;:&nbsp;河南</p>
+						<p>经验&nbsp;:&nbsp;1年</p>
+            		</dd>
+            	</dl>
+            	<div class="column">
+					<div class="col-1">
+						<p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="1.5s"><i>毕业院校&nbsp;:&nbsp;</i>安徽新华学院</p>
+						<img src="img/heng.png" alt="" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.5s">
+					</div>
+					<div class="col-1">
+						<p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="1.8s"><i>专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业&nbsp;:&nbsp;</i>电子信息工程</p>
+						<img src="img/heng.png" alt="" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.8s">
+					</div>
+					<div class="col-1">
+						<p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="2.1s"><i>求职意向&nbsp;:&nbsp;</i>web前端工程师</p>
+						<img src="img/heng.png" alt="" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.1s">
+					</div>
+					<div class="col-1">
+						<p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="2.4s"><i>联系电话&nbsp;:&nbsp;</i>18226626306</p>
+						<img src="img/heng.png" alt="" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.4s">
+					</div>
+					<div class="col-1">
+						<p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="2.7s"><i>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱&nbsp;:&nbsp;</i>765866913@qq.com</p>
+						<img src="img/heng.png" alt="" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.7s">
+					</div>
+            	</div>
+                <div class="bg ani" swiper-animate-effect="fadeInDown"">
+					<div class="bg-p p-1">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+					<div class="bg-p p-2">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+					<div class="bg-p p-3">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+					<div class="bg-p p-4">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+               </div>
+            </div>
+            <div class="swiper-slide  swr-thr">
+            	<div class="base ani">
+                    <b class="b-lf ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.1s"></b><h3 class='ani' swiper-animate-effect="rubberBand" swiper-animate-delay="0.1s">所获荣誉</h3><b class="b-rt ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.1s"></b>
+                </div>
+            	<ul class="list">
+            		<li>
+                        <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.5s">2015.12<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1s">|</span><br/>2017.12</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.5s">荣获校级奖学金(多次)</i>
+                    </li>
+                    <li>
+                         <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="2s">2014.12<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.5s">|</span><br/>2015.12</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3s">通过省计算机二级C语言</i>
+                    </li>
+                    <li>
+                         <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="3.5s">2016.01<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="4s">|</span><br/>2017.09</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="4.5s">主持安徽省大学生创新训练项目(AH201612216016)</i>
+                    </li>
+                    <li>
+                         <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="5s">2016.11<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="5.5s">|</span><br/>2016.12</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="6s">主持参加院心理健康宣传海报评选二等奖</i>
+                    </li>
+                     <li>
+                         <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="6.5s">2016.12<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="7s">|</span><br/>2016.12</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="7.5s">荣获单片机设计大赛三等奖</i>
+                    </li>
+                    <li>
+                         <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="8s">2017.03<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="8.5s">|</span><br/>2017.04</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="9s">荣获校大学生电工电子设计竞赛三等奖</i>
+                    </li>
+                   
+                    <li>
+                         <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="9.5s">2016.05<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="10s">|</span><br/>2017.06</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="10.5s">荣获校物联网设计二等奖</i>
+                    </li>
+                    <li>
+                         <b class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="11s">2016.06<br/><span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="11.5s">|</span><br/>2017.07</b>
+                        <i class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="12s">荣获校EDA技术应用设计大赛一等奖</i>
+                    </li>
+            	</ul>
+				 <div class="bg ani" swiper-animate-effect="fadeInDown"">
+					<div class="bg-p p-1">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+					<div class="bg-p p-2">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+					<div class="bg-p p-3">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+					<div class="bg-p p-4">
+						<p class="bg-p1"></p>
+						<p class="bg-p2"></p>
+					</div>
+               </div>
+            </div>
+            <div class="swiper-slide swr-thr-af">
+                <div class="base ani">
+                    <b class="b-lf ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.1s"></b><h3 class='ani' swiper-animate-effect="rubberBand" swiper-animate-delay="0.1s">专业技能</h3><b class="b-rt ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.1s"></b>
+                </div>
+                <ul>
+                    <li>
+                        <i>
+                            <img src="img/ps.png" alt="" class="ani" swiper-animate-effect="bounceIn" swiper-animate-delay="0.5s">
+                            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="0.7s"></p>
+                        </i>
+                        <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1s">熟练使用Photoshop,熟练掌握切图方法和简单绘图制作.
+                        </dd>
+                        <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.7s"></span>
+                    </li>
+                    <li>
+                     <i>
+                         <img src="img/h5css.png" class="ani" alt="" swiper-animate-effect="bounceIn" swiper-animate-delay="1.5s">
+                          <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="1.7s"></p>
+                     </i>
+                     <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2s">熟练掌握HTML(H5)+CSS(CSS3),具有良好PC端和移动端布局基础和编码规范.
+                     </dd>
+                     <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.7s"></span>
+                 </li>
+                 <li>
+                     <i>
+                         <img src="img/js.png" alt="" class="ani" alt="" swiper-animate-effect="bounceIn" swiper-animate-delay="2.5s">
+                            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="2.7s"></p>
+                         </i>
+                         <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3s">熟练掌握原生JavaScript,熟练使用jQuary,能按要求完成各种动态效果.
+                         </dd>
+                         <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.7s"></span>
+                     </li>
+                     <li>
+                         <i><img src="img/bs.png" alt="" class="ani" alt="" swiper-animate-effect="bounceIn" swiper-animate-delay="3.5s">
+                             <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="3.7s"></p>
+                         </i>
+                         <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="4s">熟练使用Bootstrap等前端常用框架.
+                         </dd>
+                         <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3.7s"></span>
+                     </li>
+                     <li>
+                         <i>
+                             <img src="img/sassjpg.png" alt="" class="ani" alt="" swiper-animate-effect="bounceIn" swiper-animate-delay="4.5s">
+                             <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="4.7s"></p>
+                             </i>
+                             <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="5s">熟练使用sass/less的动态样式语言,大程度提高编码效率.
+                             </dd> 
+                             <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="4.7s"></span>
+                         </li>
+                         <li>
+                             <i>
+                                 <img src="img/angu.png" alt="" class="ani" alt="" swiper-animate-effect="bounceIn" swiper-animate-delay="5.5s">
+                                 <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="5.7s"></p>
+                             </i>
+                             <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="6s">了解Angular.js,node.js,vue.js, React,ECMAScript 6等前端主流框架.
+                             </dd>
+                             <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="5.7s"></span>
+                         </li>
+                         <li>
+                             <i>
+                                 <img src="img/php.png" alt="" class="ani" alt="" swiper-animate-effect="bounceIn" swiper-animate-delay="6.5s">
+                                  <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="6.7s"></p>
+                             </i>
+                             <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="7s">了解aJax,php,后台语言,以及SQLServer,MySQL等数据库基本操作.
+                             </dd>
+                             <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="6.7s"></span>
+                         </li>
+                         <li>
+                             <i>
+                                 <img src="img/sub.png" alt="" class="ani" alt="" swiper-animate-effect="bounceIn" swiper-animate-delay="7.5s">
+                                 <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="7.7s"></p>
+                             </i>
+                             <dd class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="8s">熟练应用各种编译工具,,具有良好的编码规范.
+                             </dd>
+                            <span class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="7.7s"></span>
+                         </li>
+                     </ul>
+            </div>
+            <div class="swiper-slide swr-for">
+                <div class="base ani">
+                    <b class="b-lf ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.1s"></b><h3 class='ani' swiper-animate-effect="rubberBand" swiper-animate-delay="0.1s">项目经验</h3><b class="b-rt ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.1s"></b>
+                </div>
+                <div class="fir">
+                    <div class="time">
+                        <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.5s">2015.12<br/><span>|</span><br/>2017.12</p>
+                    </div>
+                    <div class="show">
+                        <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1s">PC端项目</h2>
+                        
+                        <div class="tupian">
+                           <ul>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="4s"><img src="img/fuwu.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3.5s"><img src="img/jd.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3s"><img src="img/yf.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.5s"><img src="img/hb.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2s"><img src="img/ttfc.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.5s"><img src="img/jn.png" alt=""></li>
+                           </ul>
+                        </div>
+                        <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="5s">主要项目技术:&nbsp;&nbsp;<br/>熟练运用html+css进行页面布局,熟练运用原生js和jQuery实现页面交互效果.熟练运用Bootstrap进行快速响应式页面搭建等
+                        </p>
+                    </div>
+                </div>
+				 <div class="bg ani" swiper-animate-effect="fadeInDown"">
+    					<div class="bg-p p-1">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+    					<div class="bg-p p-2">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+    					<div class="bg-p p-3">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+    					<div class="bg-p p-4">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+               </div>
+            </div><!--e for-->
+            <!--for-2-->
+            <div class="swiper-slide swr-for">
+                <div class="base ani">
+                    <b class="b-lf ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.1s"></b><h3 class='ani' swiper-animate-effect="rubberBand" swiper-animate-delay="0.1s">项目经验</h3><b class="b-rt ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.1s"></b>
+                </div>
+                <div class="fir">
+                    <div class="time">
+                        <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.5s">2015.12<br/><span>|</span><br/>2017.12</p>
+                    </div>
+                    <div class="show">
+                        <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1s">移动端项目</h2>
+                        
+                        <div class="tupian">
+                           <ul>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="4s"><img src="img/sheng.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3.5s"><img src="img/jia.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3s"><img src="img/jiao.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.5s"><img src="img/su.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2s"><img src="img/su-2.png" alt=""></li>
+                               <li class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="1.5s"><img src="img/jn.png" alt=""></li>
+                           </ul>
+                        </div>
+                        <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="5s">主要项目技术:&nbsp;&nbsp;<br/>熟练运用html+css进行页面布局,熟练运用less/sass动态样式语言构建页面.熟练运用swiper.js,wow.js,animate.css等常见插件给页面添加动态效果.
+                        </p>
+                    </div>
+                </div>
+                 <div class="bg ani" swiper-animate-effect="fadeInDown"">
+                        <div class="bg-p p-1">
+                            <p class="bg-p1"></p>
+                            <p class="bg-p2"></p>
+                        </div>
+                        <div class="bg-p p-2">
+                            <p class="bg-p1"></p>
+                            <p class="bg-p2"></p>
+                        </div>
+                        <div class="bg-p p-3">
+                            <p class="bg-p1"></p>
+                            <p class="bg-p2"></p>
+                        </div>
+                        <div class="bg-p p-4">
+                            <p class="bg-p1"></p>
+                            <p class="bg-p2"></p>
+                        </div>
+               </div>
+            </div><!--e for-->
+            <div class="swiper-slide swr-fiv">
+                <div class="base ani">
+                    <b class="b-lf ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.5s"></b><h3 class='ani' swiper-animate-effect="rubberBand" swiper-animate-delay="0.5s">联系我吧</h3><b class="b-rt ani" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.5s"></b>
+                </div>
+                <div class="weichar">
+                    <span class="ani sp1" swiper-animate-effect="fadeInLeft" swiper-animate-delay="0.5s"></span>
+                    <span class="ani sp2" swiper-animate-effect="fadeInRight" swiper-animate-delay="0.5s"></span>
+                    <span class="ani sp3" swiper-animate-effect="fadeOutDownBig" swiper-animate-delay="1s"></span>
+                    <span class="ani sp4" swiper-animate-effect="fadeOutUpBig" swiper-animate-delay="1s"></span>
+                    <img src="img/weixin1.png" alt="" class="ani"  swiper-animate-effect="fadeIn" swiper-animate-delay="0.5s">
+                    <p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2s">QQ:765866913</p>
+                    <p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="2.5s">手机:18226626306</p>
+                    <p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-delay="3s">邮箱:765866913@qq.com</p>
+                </div>
+				 <div class="bg ani" swiper-animate-effect="fadeInDown"">
+    					<div class="bg-p p-1">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+    					<div class="bg-p p-2">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+    					<div class="bg-p p-3">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+    					<div class="bg-p p-4">
+    						<p class="bg-p1"></p>
+    						<p class="bg-p2"></p>
+    					</div>
+               </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script> 
+    <script src="js/swiper-3.4.2.min.js"></script> 
+    <script>
+    /* 初始化swiper.js */
+var mySwiper = new Swiper('.swiper-container',{
+        pagination : '.swiper-pagination', //分页器
+        direction:'vertical', //垂直方向换页
+        slideToClickedSlide: true, //slide1向slide2 swipe的过程中轻点slide1会回到slide1
+        // loop:true,
+        /* 初始化animate */
+        onInit: function(swiper){  //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper);  //隐藏动画元素 
+            setTimeout(function(){ //2s后开始运行动画（移动端总是没加载完图片就开始动画了。。。。。）
+                swiperAnimate(swiper); //初始化完成开始动画
+            },2000)
+        }, 
+        onSlideChangeEnd: function(swiper){ 
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        } 
+})
+    </script>
+    
+</body>
+</html>
