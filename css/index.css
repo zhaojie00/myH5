@@ -22,6 +22,16 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.swiper-container .swiper-pagination {
+  background-color: rgba(0, 0, 0, 0);
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet {
+  border: 0.046875rem solid transparent;
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: rgba(100, 0, 0, 0.5);
+  border: 0.046875rem solid #d8aa6c;
+}
 .swiper-container .music-box {
   z-index: 99;
   position: fixed;
