@@ -23,7 +23,7 @@ body {
   margin-right: auto;
 }
 .swiper-container .swiper-pagination {
-  background-color: rgba(0, 0, 0, 0);
+  background: 0;
 }
 .swiper-container .swiper-pagination .swiper-pagination-bullet {
   border: 0.046875rem solid transparent;
